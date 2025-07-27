@@ -1,0 +1,98 @@
+
+/* Background */
+.fluffcore-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 25%, #fecfef 50%, #a8e6cf 75%, #dcedc1 100%);
+  z-index: -1;
+  overflow: hidden;
+}
+
+.floating-shapes {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.float {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.6;
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+/* Individual floating shapes */
+.float1 {
+  width: 80px;
+  height: 80px;
+  background: #ffb3ba;
+  left: 10%;
+  animation-name: float1;
+}
+
+.float2 {
+  width: 60px;
+  height: 60px;
+  background: #bae1ff;
+  left: 20%;
+  animation-name: float2;
+}
+
+.float3 {
+  width: 100px;
+  height: 100px;
+  background: #ffffba;
+  left: 70%;
+  animation-name: float3;
+}
+
+.float4 {
+  width: 40px;
+  height: 40px;
+  background: #ffdfba;
+  left: 80%;
+  animation-name: float4;
+}
+
+/* Animations */
+@keyframes float1 {
+  0% { transform: translateY(100vh) rotate(0deg); }
+  100% { transform: translateY(-100px) rotate(360deg); }
+}
+@keyframes float2 {
+  0% { transform: translateY(100vh) rotate(0deg); }
+  100% { transform: translateY(-100px) rotate(360deg); }
+}
+@keyframes float3 {
+  0% { transform: translateY(100vh) rotate(0deg); }
+  100% { transform: translateY(-100px) rotate(360deg); }
+}
+@keyframes float4 {
+  0% { transform: translateY(100vh) rotate(0deg); }
+  100% { transform: translateY(-100px) rotate(360deg); }
+}
+
+
+
+/* BLOG */
+.card-wrapper{
+    text-align: center;
+  padding: 2rem;
+ 
+  color: #6E3C3C;
+  font-family: 'Times New Roman', Times, serif;
+}
+.blog-card img{
+    width: 20%;
+}
+.blog-card{
+ background-color: #fff0f5;
+ height: 36rem;
+ padding: 3rem;
+}
