@@ -1,13 +1,12 @@
 import "./Fluff.css";
 import FluffCoreBackground from "./FluffCoreBackground";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { useRef } from "react";
+import { useRef, useEffect, useState } from "react";
 
 import hero4 from "../assets/heroimg4.jpg";
 
 const Booking = () => {
-  const formRef = useRef(); 
-
+  const formRef = useRef();   
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -21,24 +20,30 @@ const Booking = () => {
     alert("Pre-booking successful!");
   };
 
+  const [quantity, setQuantity] = useState(1)
+  const plus = () => {
+  setQuantity(quantity + 1);
+};
+
+const minus = () => {
+  if (quantity > 1) {
+    setQuantity(quantity - 1);
+  }
+};
+
   return (
     <>
       <FluffCoreBackground />
       <div className="Banner-container">
         {/* <img src={hero4} id="Heo4-img" /> */}
-          <div className="headder text-center">
-            <h1>
-                Pre-Booking Page
-            </h1>
+        <div className="headder text-center">
+          <h1>Pre-Booking Page</h1>
 
-            <p>
-                <b>
-                Pre-Order Your Plush
-                </b>
-                </p>
-                <span>Reserve Your Favorite Fluff — Before They Crawl Away!</span>
-          </div>
-
+          <p>
+            <b>Pre-Order Your Plush</b>
+          </p>
+          <span>Reserve Your Favorite Fluff — Before They Crawl Away!</span>
+        </div>
       </div>
 
       <div className="form-container">
@@ -85,7 +90,7 @@ const Booking = () => {
 
               <div className="mb-3 col-12 text-dark">
                 <label htmlFor="Address" className="form-label">
-                 Address
+                  Address
                 </label>
                 <textarea
                   id="address"
@@ -95,13 +100,41 @@ const Booking = () => {
                 ></textarea>
               </div>
 
-                {/* quantity counter */}
-                {/* updated price */}
+              {/* quantity counter */}
+              <div className="quantityprice-wrapper d-flex p-3">
+                <div className="row">
+                  <div className="col-6 ">
+                    <div className="quantity-wrapper d-flex ">
+                     <button type="button" className="decrement" onClick={minus}>-</button>
+                    <span>{quantity}</span>
+                  
+                    <button type="button" className="increment" onClick={plus}>+</button>
+                    </div>
+                  </div>
+                  <div className="col-6">
+                    {/* updated price */}
+                    <div className="total-price">
+                      Total
+                      {/* Total: ${calculateTotal()} */}
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div className="donation-container w-75 text-center pe-5">
+                  <div className="donation-heading">
+                  <h4>
+                      Help an Real Animal Too!
+                  </h4>
+                  <h6>
+                    Add a donation to support animal
+                     shelters - every dollar helps a real fluff find their home!
+                  </h6>
+                  </div>
+                </div>
 
-            
 
               <button type="submit" className="contact-btn w-25">
-                Send Message
+                Pre-Book Now
               </button>
             </form>
           </div>

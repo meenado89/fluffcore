@@ -140,3 +140,9 @@ a{
 width: 800px;
   height: 10%;
 }
+
+/* DONATION */
+.donation-container{
+  margin-left: 5rem;
+  margin-right:5rem;
+}
