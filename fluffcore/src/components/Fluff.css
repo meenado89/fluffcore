@@ -113,6 +113,13 @@ a{
   
 }
 /* NAvBar*/
+
+/* NavBar logo */
+/* #Main-logo{
+  position: relative;
+  height: 25%;
+}width: 5%;
+   */
 .Navbar li{
   list-style-type: none;
  margin-left: 5rem;
@@ -131,9 +138,8 @@ a{
   gap: 50px;
 }
 /* BOOKING */
-#Heo4-img{
-  opacity: 0.9;
-  
+.img-container{
+  height: 35rem;
 }
 
 .imgmain-container img{
@@ -151,4 +157,15 @@ width: 800px;
 .form-check-label{
   /* display: flex; */
  
+}
+
+/* contact */
+#about-logo{
+  width: 25%;
+  border: 12px #6E3C3C;
+  border-radius: 60%;
+  -webkit-border-radius: 60%;
+  -moz-border-radius: 60%;
+  -ms-border-radius: 60%;
+  -o-border-radius: 60%;
 }
