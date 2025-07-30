@@ -3,7 +3,7 @@ import FluffCoreBackground from "./FluffCoreBackground";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useRef, useEffect, useState } from "react";
 
-import booking1 from "../assets/pre-booking1.png";
+// import booking1 from "../assets/pre-booking1.png";
 
 const Booking = () => {
   const formRef = useRef();
@@ -64,9 +64,9 @@ const Booking = () => {
     <>
       <FluffCoreBackground />
       <div className="Banner-container">
-       <div className="img-container">
+       {/* <div className="img-container">
          <img src={booking1} id="booking1-img" />
-       </div>
+       </div> */}
         <div className="headder text-center">
           <h1>Pre-Booking Page</h1>
 
