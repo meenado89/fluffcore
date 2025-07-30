@@ -5,6 +5,7 @@ import "./components/Fluff.css";
 import Booking from './components/Booking'
 import NavBar from './components/NavBar';
 import Contact from './components/Contact';
+import Article from './components/Article';
 // import FluffCoreBackground from './components/FluffCoreBackground';
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Route path="/Blog" element={<Blog />} />
         <Route path="/Booking" element={<Booking />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/Article" element={<Article />} />
+
     </Routes>
     
     </>
