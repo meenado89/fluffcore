@@ -5,6 +5,9 @@ import FluffCoreBackground from "./FluffCoreBackground";
 import cat from "../assets/CyberCat.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
+
+
+// 24537452hjghjgyufyjhjgyuy/./,l.m,...j
 const Blog = () => {
   const navigate = useNavigate();
 
