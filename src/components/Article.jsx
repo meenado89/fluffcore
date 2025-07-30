@@ -33,7 +33,8 @@ const Article = () => {
           style={{ maxHeight: "400px", objectFit: "cover" }}
         />
 
-        <p className="lead">{blogData.content}</p>
+       <div className="article-text">{blogData.content}</div>
+
       </div>
 
       <div className="text-center mt-5">

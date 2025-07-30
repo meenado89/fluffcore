@@ -1,14 +1,10 @@
-import BlogCard from "./BlogCard"; // ⬅️ import your card
+import BlogCard from "./BlogCard"; 
 import { useNavigate } from "react-router-dom";
 import "./Fluff.css";
 import FluffCoreBackground from "./FluffCoreBackground";
 import cat from "../assets/CyberCat.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
-import { preview } from "vite";
-
-
-
 const Blog = () => {
   const navigate = useNavigate();
 
@@ -33,7 +29,7 @@ const Blog = () => {
     `,
       image: cat,
     },
-    
+
     {
   id: 2,
   title: "Why Our Plushies Hit Different: The Science of Ugly-Cute",
@@ -64,16 +60,57 @@ We didn't plan to be scientifically adorable, but here we are.`,
       date: "28/07/2020",
       tag: "5 min read",
       preview: "Here's the thing about FluffCore Studios – we believe imaginary friends should help real friends...",
+      content: `Fluff with Purpose
+
+Here's the thing about FluffCore Studios – we believe imaginary friends should help real friends. That's why every single purchase directly funds animal shelter operations, rescue missions, and adoption programs.
+
+How It Works:
+• 40% of profits go directly to partnered animal shelters  
+• Monthly donations support spay/neuter programs  
+• Quarterly drives fund emergency veterinary care  
+• Annual campaigns sponsor shelter renovations  
+
+Our Partners:
+• Paws & Hearts Animal Rescue (Local)  
+• Second Chance Shelter Network (Regional)  
+• Global Pet Sanctuary Alliance (International)  
+
+Real Impact: Since launch, FluffCore purchases have:
+• ✅ Funded 347 animal adoptions  
+• ✅ Sponsored 89 emergency surgeries  
+• ✅ Provided 2,400+ meals to shelter animals  
+• ✅ Built 3 new shelter play areas  
+
+The Philosophy: When you adopt a FluffCore character, you're not just getting a companion – you're giving a real animal the chance to find their forever home. It's like having a cosmic adoption buddy system, but with more glitter and significantly more fangs.
+
+"Every Crème Ghoul sold = one shelter cat's monthly food. Every StarLuxe adopted = one dog's vaccination series. Math has never felt this wholesome."`,
+
       image: cat,
     },
     {
-      id: 4,
-      title: "The Pastel Rebellion: Why Gen Z is Redefining Cute Culture",
-      date: "28/07/2020",
-      tag: "5 min read",
-      content: "Gone are the days when 'cute' meant 'simple.' Today's collectors want characters with depth...",
-      image: cat,
-    },
+  id: 4,
+  title: "The Pastel Rebellion: Why Gen Z is Redefining Cute Culture",
+  date: "28/07/2020",
+  tag: "5 min read",
+  preview: "Gone are the days when 'cute' meant 'simple.' Today's collectors want characters with depth...",
+  content: `Not Your Childhood's Toy Store
+
+Gone are the days when "cute" meant "simple." Today's collectors want characters with depth, aesthetic complexity, and just enough edge to feel authentic. FluffCore sits perfectly in this sweet spot of subversive kawaii.
+
+The Cultural Shift:
+• From Perfect to Quirky: Asymmetry is the new symmetry
+• Comfort Objects for Adults: Emotional support comes in many forms
+• Social Media Ready: Every angle needs to be photogenic
+• Storytelling Matters: Backstory is becoming more important than design
+
+Why Pastels with Fangs Work:
+Our brains are wired to find contrast interesting. Soft colors with sharp teeth, fluffy clouds with zippers, royal foxes with attitude – these contradictions create memorable, shareable moments.
+
+The FluffCore Effect:
+We're not just riding the trend; we're helping define it. When someone sees our characters on Instagram, they don't just think "cute" – they think "Where do I get one?"`,
+  image: cat,
+}
+
   ];
 
   const handleReadMore = (post) => {
