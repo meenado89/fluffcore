@@ -45,7 +45,7 @@ a{
   background: #bae1ff;
   left: 20%;
   animation-name: float2;
-  box-shadow: 90px 0 0 0 #dcedc1;
+ 
 }
 
 .float3 {
@@ -54,6 +54,7 @@ a{
   background: #ffffb8;
   left: 70%;
   animation-name: float3;
+  
 }
 
 .float4 {
@@ -62,6 +63,7 @@ a{
   background: #ffdfba;
   left: 80%;
   animation-name: float4;
+   
 }
 
 /* Animations */
@@ -169,3 +171,24 @@ width: 800px;
   -ms-border-radius: 60%;
   -o-border-radius: 60%;
 }
+
+.ContactM-container {
+   background-image: url("../assets/Cbg3.png");
+  background-size: cover;        
+  background-position: center;  
+  background-repeat: no-repeat; 
+  width: 100%;
+  min-height: 100vh;             
+  padding: 2rem;
+ 
+}
+
+/* .article-page{
+  background-image: url("../assets/Cbg4.png") ;
+  background-size: cover;        
+  background-position: center;  
+  background-repeat: no-repeat; 
+  width: 100%;
+  min-height: 100vh;             
+  padding: 2rem;
+} */

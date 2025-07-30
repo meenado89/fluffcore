@@ -1,7 +1,7 @@
 import React from "react";
 import { useLocation, Link } from "react-router-dom";
 import "./Fluff.css"; // If your article styling is also in Fluff.css
-
+import FluffCoreBackground from "./FluffCoreBackground";
 const Article = () => {
   const location = useLocation();
   const blogData = location.state?.blogData;
@@ -17,6 +17,7 @@ const Article = () => {
   }
 
   return (
+   <> <FluffCoreBackground />
     <div className="container article-page my-5">
       <header className="mb-4 text-center">
         <h1>{blogData.title}</h1>
@@ -43,6 +44,7 @@ const Article = () => {
         </Link>
       </div>
     </div>
+    </>
   );
 };
 
