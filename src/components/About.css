@@ -1,0 +1,28 @@
+.hero {
+  display: flex;
+  justify-content: center;   
+  /* align-items: center;        */
+  min-height: 100vh;         
+  
+
+.info-wrapper {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.about-video {
+  width: 70%;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+  
+}
+.video{
+    position: relative;
+    left: 4rem;
+}
+
+.about-tag{
+    position: relative;
+   
+}
