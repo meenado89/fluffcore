@@ -7,6 +7,7 @@ import FluffCoreBackground from "./FluffCoreBackground";
 const About = () => {
     return (
         <>
+        {/* hbjhgjhghj */}
             <FluffCoreBackground />
             <section>
                 <div className="hero w-100 h-100">
