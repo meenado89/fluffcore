@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+
 a{
   color: inherit;
   text-decoration: none !important;
@@ -98,9 +100,19 @@ a{
     width: 20%;
 }
 .blog-card{
- background-color: #fff0f5;
+ background-color: #fbfbfb0b;
  height: 36rem;
  padding: 3rem;
+ border-radius: 8px;
+ backdrop-filter: blur(5px);
+ box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+ border: 1px solid rgba(247, 211, 211, 0.5);
+ border-right: 1px solid rgba(255,255,255,0.2);
+ border-bottom: 1px solid rgba(255,255,255,0.2);
+ -webkit-border-radius: 8px;
+ -moz-border-radius: 8px;
+ -ms-border-radius: 8px;
+ -o-border-radius: 8px;
 }
 .blog-btn{
   border: none;
@@ -114,31 +126,7 @@ a{
   box-shadow: 0 1px 2px 4px #ffffb82e;
   
 }
-/* NAvBar*/
 
-/* NavBar logo */
-/* #Main-logo{
-  position: relative;
-  height: 25%;
-}width: 5%;
-   */
-.Navbar li{
-  list-style-type: none;
- margin-left: 5rem;
- padding-top: 1rem;
- color: #6E3C3C;
-}
-.Navbar{
- /* background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 25%, #fecfef 50%, #a8e6cf 75%, #dcedc1 100%); */
-  width: 100%;
- margin: 0%;
- padding: 0%;
- 
-}
-.Navbar ul{
-  display: flex;
-  gap: 50px;
-}
 /* BOOKING */
 .img-container{
   height: 35rem;
@@ -161,34 +149,3 @@ width: 800px;
  
 }
 
-/* contact */
-#about-logo{
-  width: 25%;
-  border: 12px #6E3C3C;
-  border-radius: 60%;
-  -webkit-border-radius: 60%;
-  -moz-border-radius: 60%;
-  -ms-border-radius: 60%;
-  -o-border-radius: 60%;
-}
-
-.ContactM-container {
-   background-image: url("../assets/Cbg3.png");
-  background-size: cover;        
-  background-position: center;  
-  background-repeat: no-repeat; 
-  width: 100%;
-  min-height: 100vh;             
-  padding: 2rem;
- 
-}
-
-/* .article-page{
-  background-image: url("../assets/Cbg4.png") ;
-  background-size: cover;        
-  background-position: center;  
-  background-repeat: no-repeat; 
-  width: 100%;
-  min-height: 100vh;             
-  padding: 2rem;
-} */
