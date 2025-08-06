@@ -3,11 +3,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 import intro from "../assets/video1.mp4";
 import FluffCoreBackground from "./FluffCoreBackground";
-
+import AboutSlider from "./AboutSlider";
+// import NavBar from "./NavBar";
 const About = () => {
     return (
         <>
-            <FluffCoreBackground />
+               <FluffCoreBackground />
+              {/* <NavBar/> */}
             <section>
                 <div className="hero w-100 h-100">
                     <div className="info-container ">
@@ -50,6 +52,7 @@ const About = () => {
                     </div>
                 </div>
             </section>
+             <AboutSlider/>
         </>
     );
 };
