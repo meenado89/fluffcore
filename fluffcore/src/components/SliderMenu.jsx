@@ -1,17 +1,18 @@
 // SliderMenu.jsx
 import React from 'react';
 import './SliderMenu.css';
+import { Link } from 'react-router-dom';
 
 const SliderMenu = ({ isOpen, onClose }) => {
   const leftMenuItems = [
     { name: 'Home', href: '/' },
-    { name: 'About Us', href: '/about' }
+    { name: 'About Us', href: '/About' }
   ];
 
   const rightMenuItems = [
-    { name: 'Blog', href: '/blog' },
-    { name: 'Contact', href: '/contact' },
-    { name: 'Pre-book', href: '/prebook' }
+    { name: 'Blog', href: '/Blog' },
+    { name: 'Contact', href: '/Contact' },
+    { name: 'Pre-book', href: '/Booking' }
   ];
 
   return (

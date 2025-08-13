@@ -5,6 +5,7 @@
     color: #eee;
     font-family: "Freckle Face", Poppins;
     font-size: 12px;
+    z-index: 1;
 }
 
 /* a{
