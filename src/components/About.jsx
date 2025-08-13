@@ -4,12 +4,13 @@ import { Link } from "react-router-dom";
 import intro from "../assets/video1.mp4";
 import FluffCoreBackground from "./FluffCoreBackground";
 import AboutSlider from "./AboutSlider";
-// import NavBar from "./NavBar";
+import NavBar from "./NavBar";
 const About = () => {
     return (
         <>
                <FluffCoreBackground />
-              {/* <NavBar/> */}
+                 <AboutSlider/>
+              <NavBar/>
             <section>
                 <div className="hero w-100 h-100">
                     <div className="info-container ">
@@ -52,7 +53,7 @@ const About = () => {
                     </div>
                 </div>
             </section>
-             <AboutSlider/>
+           
         </>
     );
 };
