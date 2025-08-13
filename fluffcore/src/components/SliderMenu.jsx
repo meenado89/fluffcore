@@ -2,7 +2,6 @@
 import React from 'react';
 import './SliderMenu.css';
 import { Link } from 'react-router-dom';
-
 const SliderMenu = ({ isOpen, onClose }) => {
   const leftMenuItems = [
     { name: 'Home', href: '/' },
@@ -38,7 +37,7 @@ const SliderMenu = ({ isOpen, onClose }) => {
                 style={{ animationDelay: `${index * 0.1}s` }}
                 onClick={onClose}
               >
-                <span className="menu-number">0{index + 1}</span>
+                {/* <span className="menu-number">0{index + 1}</span> */}
                 <span className="menu-text">{item.name}</span>
               </a>
             ))}
@@ -61,7 +60,7 @@ const SliderMenu = ({ isOpen, onClose }) => {
                 style={{ animationDelay: `${(index + 2) * 0.1}s` }}
                 onClick={onClose}
               >
-                <span className="menu-number">0{index + 3}</span>
+                {/* <span className="menu-number">0{index + 3}</span> */}
                 <span className="menu-text">{item.name}</span>
               </a>
             ))}
