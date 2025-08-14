@@ -26,18 +26,19 @@ body {
    position: absolute;
    width: 300px;
    height: 400px;
-    top: 95%;
+   top: 95%;
    left: calc(50% - 75px);
    transform-style: preserve-3d;
-   animation: autorun 40s linear infinite;
+   animation: autorun 30s linear infinite;
    transform: perspective(1000px);
-   /* animation: autorun 20s linear infinite ease-in-out;
-   -webkit-animation: autorun 20s linear infinite ease-in-out;
-  -webkit-transform: rotate(90deg);
-   -moz-transform: rotate(90deg);
-   -ms-transform: rotate(90deg);
-   -o-transform: rotate(90deg);
-   -webkit-transform: rotate(90deg); */
+   /*animation: autorun 20s linear infinite ease-in-out;
+   -webkit-animation: autorun 30s linear infinite;
+   -webkit-transform: perspective(1000px);
+   -moz-transform: perspective(1000px);
+   -ms-transform: perspective(1000px);
+   -o-transform: perspective(1000px);
+   -webkit-transform: rotate(90deg);
+   */
 }
 
 .banner .slider .item {
