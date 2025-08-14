@@ -39,6 +39,7 @@
   transform: translateX(-100%);
   border-right: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 10px 0 30px rgba(0, 255, 255, 0.1);
+  
 }
 
 .left-slider.active {
@@ -60,6 +61,7 @@
   text-align: center;
   width: 100%;
   padding: 2rem;
+  
 }
 
 .menu-header {
@@ -114,10 +116,6 @@
   justify-content: flex-start;
   position: relative;
   overflow: hidden;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
 }
 
 .menu-slider.active .menu-item {
