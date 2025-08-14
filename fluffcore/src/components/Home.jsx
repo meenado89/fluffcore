@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import FluffCoreBackground from "./FluffCoreBackground";
 // import hero4 from "../assets/heroimg4.jpg";
 // import NavBar from "./NavBar";
+import CircularPortfolioSite from '../components/Cslider'
 const Home = () => {
     return(
        
@@ -12,7 +13,7 @@ const Home = () => {
       {/* <NavBar/> */}
       <FluffCoreBackground/>
       {/* <img src={hero4} alt="hero-img" />    */}
-      
+      <CircularPortfolioSite/>
         </>
     );
 };
