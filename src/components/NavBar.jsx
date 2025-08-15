@@ -19,7 +19,7 @@ const Navbar = () => {
             <button 
                 className="menu-btn" 
                 onClick={toggleMenu}
-                style={{ zIndex: isOpen ? 997 : 'auto' }}
+                style={{ zIndex: isOpen ? 999 : 'auto' }}
             >
                <div className='Micon'></div>
             </button>
